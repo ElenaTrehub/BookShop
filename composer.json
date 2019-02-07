@@ -1,0 +1,22 @@
+{
+    "name": "elena/book-shop",
+    "authors": [
+        {
+            "name": "elena",
+            "email": "elenatrehub1@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.3",
+        "twig/twig": "^2.6",
+        "polarising/bcrypt": "^1.0"
+    },
+    "autoload": {
+        "psr-4":{
+            "Application\\": "Application/"
+        }
+    }
+}
+
+
+
